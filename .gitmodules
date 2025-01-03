@@ -1,0 +1,3 @@
+[submodule "tendermint-pqc"]
+	path = tendermint-pqc
+	url = https://github.com/DoraFactory/tendermint-pqc.git
