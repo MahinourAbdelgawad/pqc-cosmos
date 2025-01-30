@@ -27,7 +27,7 @@ Below are the steps we will take to achieve this goal：
 
 ### Benchmarking
 
-- [ ] Benchmark the performance of the post-quantum signature algorithms against the existing ones in Tendermint Consensus, including the time cost, space cost, and other performance metrics in consensus.
+- [ ] Benchmark the performance of the post-quantum signature algorithms against the existing ones in Tendermint Consensus, including the time cost, space cost, and other performance metrics in consensus. ***Total Bounty Reward - 5000 DORA: https://dorahacks.io/bounty/671***
 
 ## Replace the existing signature algorithm in Cosmos-SDK
 In this section, the main focus is on modifying the account system of the CosmosSDK, mainly divided into the following parts. We can choose a specific version of the CosmosSDK to implement this part, like `v0.47.15`. This part can be placed in the `cosmos-sdk-pqc` directory.
@@ -40,9 +40,13 @@ In this section, the main focus is on modifying the account system of the Cosmos
 - [ ] Integrate `cosmos-sdk-pqc` and `tendermint-pqc` into `cosmos-app-pqc` which can support developers to start a post-quantum cosmos-based chain, and send transactions based on post-quantum signature to the chain by the cli, including transfers, staking, governance, as well as cosmwasm contract transactions, and so on. Ensure that RPC, Rest API, and gRPC are all available for use.
 - [ ] Conduct a thorough code review to identify and fix any potential issues.
 
+***Total Bounty Reward (including benchmarking): 15000 $DORA - https://dorahacks.io/bounty/672***
+
 ### Benchmarking
 
 - [ ] Benchmark the performance of the post-quantum signature algorithms against the existing ones in Cosmos-SDK, including the time cost, space cost, and other performance metrics in the sdk.
+
+***Total Bounty reward included in the previous bounty - https://dorahacks.io/bounty/672***
 
 ## Support keplr wallet
 
@@ -51,6 +55,8 @@ In this section, the main focus is on modifying the account system of the Cosmos
 ## Post-quantum migration
 
 Post-quantum fork has to be done on all CosmosSDK chains that are not quantum resistant - all of them are not quantum resistant now! Come up with a specific and viable plan for post-quantum migration (fork) and submit it to this bounty. Note that the plan needs to be feasible.
+
+***Total Bounty reward included in the previous bounty - https://dorahacks.io/bounty/673***
 
 ## Contribution
 
