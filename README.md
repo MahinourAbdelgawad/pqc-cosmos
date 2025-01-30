@@ -1,8 +1,8 @@
 # pqc-cosmos
 
-**Note: this repo contains hackathon bounties for the [MIT iQuHack 2025](https://www.iquise.mit.edu/iQuHACK/2025-01-31). For hackers- please use DoraHacks bounty link associated with each task to access the bounty. The best solutions will be merged and receive bounty tokens.**
+***Note: this repo contains hackathon bounties for the [MIT iQuHack 2025](https://www.iquise.mit.edu/iQuHACK/2025-01-31). For hackers- please use DoraHacks bounty link associated with each task to access the bounty. The best solutions will be merged and receive bounty tokens.***
 
-**We do not provide a bounty for wallet support solutions at this moment.**
+***We do not provide a bounty for wallet support solutions at this moment.***
 
 A Post-Quantum Cosmos-based Infrustructure (including tendermint consensus and Cosmos-SDK)
 
