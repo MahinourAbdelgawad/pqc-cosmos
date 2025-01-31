@@ -12,6 +12,18 @@ A fully functioning post-quantum CosmosSDK will make it easy for appchain develo
 
 We use this repo to keep track of all PRs & tasks. We use bounties to reward developers who complete these tasks.
 
+### Why PQC blockchains matter?
+
+Young people love crypto more than fiat. The adoption of crypto is accelerating.
+
+Blockchain technology is the backbone of crypto currencies and application. Therefore, securing blockchains means to secure trillions of assets as well as the entire next-gen decentralized financial system.
+
+Currently, most digital signature algorithms used on blockchain systems are not quantum-safe (e.g. elliptic curve cryptography). This is not a unsolvable problems as long as post-quantum cryptography can be adopted in time. However, in order to be completely ready for the upcoming quantum computers, there are significant amount of research, engineering, and logistics involved. PQC blockchain must be built before quantum computers scale.
+
+CosmosSDK is one of the most important open source tech stacks for building blockchains. Currently, there are hundreds of sovereign independent blockchains (Appchains) using CosmosSDK as their underlying framework. By creating a post-quantum version of CosmosSDK, we will enable all future appchain developers to create quantum-resistant blockchains.
+
+Now let's get to work!
+
 Below are the steps we will take to achieve this goal：
 
 ## Replace the existing signature algorithm in Tendermint/CometBFT
